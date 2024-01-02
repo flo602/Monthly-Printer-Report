@@ -46,38 +46,38 @@ This automated script is designed to work with Brother printers. It automates th
 1. Configure the config.yml file with your specific settings:
 
    ```yaml
-   printer_ips:
-  - 192.168.1.100
-  - 192.168.1.101
-  # Add more printer IPs as needed
+    printer_ips:
+      - 192.168.1.100
+      - 192.168.1.101
+      # Add more printer IPs as needed
 
-printer_users:
-  192.168.1.100: UserA
-  192.168.1.101: UserB
-  # Assign user names to printer IPs
+    printer_users:
+      192.168.1.100: UserA
+      192.168.1.101: UserB
+      # Assign user names to printer IPs
 
-required_columns:
-  - Date
-  - PageCount
-  - Status
-  # Define required columns in the report
+    required_columns:
+      - Date
+      - PageCount
+      - Status
+      # Define required columns in the report
 
-smtp_info:
-  from_address: your_email@example.com
-  to_addresses:
-    - recipient1@example.com
-    - recipient2@example.com
-  host: smtp.example.com
-  port: 587
-  user: your_email@example.com
-  password: your_email_password
-  # SMTP email configuration
+    smtp_info:
+      from_address: your_email@example.com
+      to_addresses:
+        - recipient1@example.com
+        - recipient2@example.com
+      host: smtp.example.com
+      port: 587
+      user: your_email@example.com
+      password: your_email_password
+      # SMTP email configuration
 
-report_schedule:
-  day_of_month: 20
-  hour: 23
-  minute: 59
-  # Schedule for report generation
+    report_schedule:
+      day_of_month: 20
+      hour: 23
+      minute: 59
+     # Schedule for report generation
 
 2. Run the script using the following command:
 
