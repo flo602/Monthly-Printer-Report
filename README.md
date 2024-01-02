@@ -34,7 +34,7 @@ This automated script is designed to work with Brother printers. It automates th
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/Monthly-Printer-Report.git
+   git clone https://github.com/flo602/Monthly-Printer-Report.git
 
 2. Install the required Python libraries using pip:
 
