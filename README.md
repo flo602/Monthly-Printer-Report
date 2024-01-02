@@ -1,6 +1,6 @@
 # Monthly Printer Report (for Brother Printers)
 
-![GitHub](https://img.shields.io/github/license/flo602/Monthly-Printer-Report)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/flo602/Monthly-Printer-Report/blob/main/LICENSE)
 
 This automated script is designed to work with Brother printers. It automates the collection of printer data and generates a monthly report. It checks the status of Brother printers, downloads CSV files, and sends a structured report via email.
 
